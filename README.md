@@ -15,7 +15,7 @@
 |-----------------------|----------------|
 | [Trials of Retribution](https://discord.gg/JVCqwdw) | `ACTIVE+`  |
 | Dot4 Private Server   | `ACTIVE+`  |
-| /r/Dota2 Discord      | `PENDING` |
+| /r/Dota2 Discord      | `ACTIVE+` |
 ---
 # Bot Commands:
 ##### All commands must begin with the prefix: `::`
