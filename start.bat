@@ -6,14 +6,15 @@ echo.
 echo -- Dota Talents Bot by Harold Oliv.r
 echo -- dota_talents_bot_700.js
 echo.
-echo Hosted by: Oliv.r in Adak, AK, USA 99546
+echo Hosted by: Harb
 echo.
 echo -------  -------
 echo Status:  Server:
 echo -------  -------
+echo ACTIVE+  EU Dota 2
 echo ACTIVE+  /r/Dota2 Discord
 echo ACTIVE+  Trials of Retribution
-echo ACTIVE+  Dot4
+echo ACTIVE-  Dot4
 echo.
 echo.
 node dota_talents_bot_700.js
