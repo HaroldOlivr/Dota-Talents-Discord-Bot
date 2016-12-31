@@ -13,9 +13,10 @@
 ### Bot is active on:
 | **Discord Server**    | **Status**     |
 |-----------------------|----------------|
-| [Trials of Retribution](https://discord.gg/JVCqwdw) | `ACTIVE+`  |
-| Dot4 Private Server   | `ACTIVE+`  |
 | /r/Dota2 Discord      | `ACTIVE+` |
+| EU Dota2				| `ACTIVE+`
+| [Trials of Retribution](https://discord.gg/JVCqwdw) | `ACTIVE+`  |
+| Dot4 Private Server   | `ACTIVE-`  |
 ---
 # Bot Commands:
 ##### All commands must begin with the prefix: `::`
