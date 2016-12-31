@@ -1109,6 +1109,10 @@ bot.on("message", msg => {
   if (msg.content.startsWith(prefix + "hamster" + stream)) {
     msg.channel.sendMessage("https://www.twitch.tv/applefibs/")
   }
+  //
+  if (msg.content.startsWith(prefix + "soha" + stream)) {
+    msg.channel.sendMessage("https://www.twitch.tv/sohakmet/");
+  }
 
   /* M E M E S */
   //
