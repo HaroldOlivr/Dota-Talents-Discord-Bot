@@ -20,56 +20,6 @@ bot.on("message", msg => {
   let prefix = "::";
   let stream = " -stream";
 
-
-  // M I S C .
-  if (msg.content.startsWith(prefix + "map")) {
-    msg.channel.sendMessage("http://i.imgur.com/UZeDAFk.png");
-  }
-  //
-  if (msg.content.startsWith(prefix + "creepinfo")) {
-    msg.channel.sendMessage("https://imgur.com/a/UNCbw#cLmXbby")
-  }
-  //
-  if (msg.content.startsWith(prefix + "happybday")) {
-    msg.channel.sendMessage("https://media.giphy.com/media/ToMjGpRb3TkJImKKIh2/giphy.gif");
-  }
-  //
-  if (msg.content.startsWith(prefix + "4rtylewd")) {
-    msg.channel.sendMessage("http://i.imgur.com/FwGtEkq.png");
-  }
-
-  //
-  // S T R E A M
-  //
-  if (msg.content.startsWith(prefix + "adam" + stream)) {
-    msg.channel.sendMessage("https://www.twitch.tv/adamman1130/");
-  }
-  //
-  if (msg.content.startsWith(prefix + "ox" + stream)) {
-    msg.channel.sendMessage("https://www.twitch.tv/oxthe5th/");
-  }
-  //
-  if (msg.content.startsWith(prefix + "4rtemis" + stream)) {
-    msg.channel.sendMessage("https://www.twitch.tv/lll4rtemislll/");
-  }
-  //
-  if (msg.content.startsWith(prefix + "hershey" + stream)) {
-    msg.channel.sendMessage("https://www.twitch.tv/h3rsh3yb3ar/");
-  }
-  //
-  if (msg.content.startsWith(prefix + "mtn" + stream)) {
-    msg.channel.sendMessage("https://www.twitch.tv/mtnlol/");
-  }
-  //
-  if (msg.content.startsWith(prefix + "wamu" + stream)) {
-    msg.channel.sendMessage("https://www.twitch.tv/wamu1217/");
-  }
-  //
-  if (msg.content.startsWith(prefix + "hamster" + stream)) {
-    msg.channel.sendMessage("https://www.twitch.tv/applefibs/")
-  }
-
-
   //
   // H E R O E S
   //
@@ -221,7 +171,7 @@ bot.on("message", msg => {
     msg.channel.sendMessage("http://i.imgur.com/NcTg35Z.png");
   }
   //
-  if (msg.content.startsWith(prefix + "io") || msg.content.startsWith(prefix+"wisp")) {
+  if (msg.content.startsWith(prefix + "io") || msg.content.startsWith(prefix + "wisp")) {
     msg.channel.sendMessage("http://i.imgur.com/lJm7Dv4.png");
   }
   //
@@ -896,15 +846,15 @@ bot.on("message", msg => {
     msg.channel.sendMessage("http://i.imgur.com/42MFw1K.png");
   }
   //
-  if (msg.content.startsWith(prefix + "drum of endurance") || msg.content.startsWith(prefix+"drums")) {
+  if (msg.content.startsWith(prefix + "drum of endurance") || msg.content.startsWith(prefix + "drums")) {
     msg.channel.sendMessage("http://i.imgur.com/IwEucvc.png");
   }
   //
-  if (msg.content.startsWith(prefix + "mekansm") || msg.content.startsWith(prefix+"meka")) {
+  if (msg.content.startsWith(prefix + "mekansm") || msg.content.startsWith(prefix + "meka")) {
     msg.channel.sendMessage("http://i.imgur.com/rWfZAAx.png");
   }
   //
-  if (msg.content.startsWith(prefix + "vladimir's offering") || msg.content.startsWith(prefix+"vlads")) {
+  if (msg.content.startsWith(prefix + "vladimir's offering") || msg.content.startsWith(prefix + "vlads")) {
     msg.channel.sendMessage("http://i.imgur.com/vCGt1nN.png");
   }
   //
@@ -1101,6 +1051,59 @@ bot.on("message", msg => {
   //
   if (msg.content.startsWith(prefix + "butterfly")) {
     msg.channel.sendMessage("http://i.imgur.com/121RW7I.png");
+  }
+
+/*************************************************************************** */
+/************************************************************************* */
+/*********************************************************************** */
+/********************************************************************* */
+
+  // M I S C .
+  if (msg.content.startsWith(prefix + "map")) {
+    msg.channel.sendMessage("http://i.imgur.com/UZeDAFk.png");
+  }
+  //
+  if (msg.content.startsWith(prefix + "creepinfo")) {
+    msg.channel.sendMessage("https://imgur.com/a/UNCbw#cLmXbby")
+  }
+  //
+  if (msg.content.startsWith(prefix + "happybday")) {
+    msg.channel.sendMessage("https://media.giphy.com/media/ToMjGpRb3TkJImKKIh2/giphy.gif");
+  }
+  //
+  if (msg.content.startsWith(prefix + "4rtylewd")) {
+    msg.channel.sendMessage("http://i.imgur.com/FwGtEkq.png");
+  }
+
+  //
+  // S T R E A M
+  //
+  if (msg.content.startsWith(prefix + "adam" + stream)) {
+    msg.channel.sendMessage("https://www.twitch.tv/adamman1130/");
+  }
+  //
+  if (msg.content.startsWith(prefix + "ox" + stream)) {
+    msg.channel.sendMessage("https://www.twitch.tv/oxthe5th/");
+  }
+  //
+  if (msg.content.startsWith(prefix + "4rtemis" + stream)) {
+    msg.channel.sendMessage("https://www.twitch.tv/lll4rtemislll/");
+  }
+  //
+  if (msg.content.startsWith(prefix + "hershey" + stream)) {
+    msg.channel.sendMessage("https://www.twitch.tv/h3rsh3yb3ar/");
+  }
+  //
+  if (msg.content.startsWith(prefix + "mtn" + stream)) {
+    msg.channel.sendMessage("https://www.twitch.tv/mtnlol/");
+  }
+  //
+  if (msg.content.startsWith(prefix + "wamu" + stream)) {
+    msg.channel.sendMessage("https://www.twitch.tv/wamu1217/");
+  }
+  //
+  if (msg.content.startsWith(prefix + "hamster" + stream)) {
+    msg.channel.sendMessage("https://www.twitch.tv/applefibs/")
   }
 
   /* M E M E S */
