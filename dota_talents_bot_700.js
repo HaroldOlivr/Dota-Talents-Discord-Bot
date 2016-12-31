@@ -1110,7 +1110,7 @@ bot.on("message", msg => {
     msg.channel.sendMessage("https://www.twitch.tv/applefibs/")
   }
   //
-  if (msg.content.startsWith(prefix + "soha" + stream)) {
+  if (msg.content.startsWith(prefix + "sohakmet" + stream)) {
     msg.channel.sendMessage("https://www.twitch.tv/sohakmet/");
   }
 
