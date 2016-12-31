@@ -63,7 +63,7 @@ bot.on("message", msg => {
     msg.channel.sendMessage("http://i.imgur.com/lcXSQj3.png");
   }
   //
-  if (msg.content.startsWith(prefix + "bounty hunter") || msg.content.startsWith(prefix + "bh")) {
+  if (msg.content.startsWith(prefix + "bounty hunter") || msg.content.startsWith(prefix + "bh") || msg.content.startsWith(prefix + "bounty")) {
     msg.channel.sendMessage("http://i.imgur.com/3JqOzYb.png");
   }
   //
@@ -790,7 +790,7 @@ bot.on("message", msg => {
     msg.channel.sendMessage("http://i.imgur.com/vytI7xt.png");
   }
   //
-  if (msg.content.startsWith(prefix + "oblivion staff")) {
+  if (msg.content.startsWith(prefix + "oblivion staff") || msg.content.startsWith(prefix + "oblivion")) {
     msg.channel.sendMessage("http://i.imgur.com/NrOFYSY.png");
   }
   //
