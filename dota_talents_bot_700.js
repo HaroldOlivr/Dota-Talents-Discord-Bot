@@ -135,7 +135,7 @@ bot.on("message", msg => {
     msg.channel.sendMessage("http://i.imgur.com/clnw3Uk.png");
   }
   //
-  if (msg.content.startsWith(prefix + "earthshaker") || msg.content.startsWith(prefix + "es")) {
+  if (msg.content.startsWith(prefix + "es")) {
     msg.channel.sendMessage("http://i.imgur.com/viDRCGO.png");
   }
   //
@@ -327,7 +327,7 @@ bot.on("message", msg => {
     msg.channel.sendMessage("http://i.imgur.com/9p1rS1p.png");
   }
   //
-  if (msg.content.startsWith(prefix + "sand king") || msg.content.startsWith(prefix + "sk")) {
+  if (msg.content.startsWith(prefix + "sand king") || msg.content.startsWith(prefix + "sand")) {
     msg.channel.sendMessage("http://i.imgur.com/MKn3xGR.png");
   }
   //
@@ -347,7 +347,7 @@ bot.on("message", msg => {
     msg.channel.sendMessage("http://i.imgur.com/WiOnl5S.png");
   }
   //
-  if (msg.content.startsWith(prefix + "skywrath mage") || msg.content.startsWith(prefix + "Sky")) {
+  if (msg.content.startsWith(prefix + "skywrath mage") || msg.content.startsWith(prefix + "sky")) {
     msg.channel.sendMessage("http://i.imgur.com/ehelLK9.png");
   }
   //
@@ -1053,10 +1053,10 @@ bot.on("message", msg => {
     msg.channel.sendMessage("http://i.imgur.com/121RW7I.png");
   }
 
-     /*************************************************************************** */
-    /************************************************************************** */
-   /************************************************************************* */
-  /************************************************************************ */
+  /************ O T H E R *************** ****************************************** */
+  /*************************** U S E L E S S ************************************** */
+  /********** S  H  I  T ********************************************************* */
+  /****************************************************************************** */
 
   // M I S C .
   if (msg.content.startsWith(prefix + "map")) {
@@ -1122,6 +1122,10 @@ bot.on("message", msg => {
   //
   if (msg.content.startsWith(prefix + "stfu")) {
     msg.channel.sendMessage("http://i.imgur.com/GDAugZL.png");
+  }
+  //
+  if (msg.content.startsWith(prefix + "ritsu")) {
+    msg.channel.sendMessage("http://i.imgur.com/UfdQebq.png");
   }
 
 });
