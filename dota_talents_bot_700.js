@@ -383,7 +383,7 @@ bot.on("message", msg => {
     msg.channel.sendMessage("http://i.imgur.com/1yopYaa.png");
   }
   //
-  if (msg.content.startsWith(prefix + "templar assasin") || msg.content.startsWith(prefix + "ta")) {
+  if (msg.content.startsWith(prefix + "templar assasin") || msg.content.startsWith(prefix + "templar")) {
     msg.channel.sendMessage("http://i.imgur.com/cNmqLaX.png");
   }
   //
