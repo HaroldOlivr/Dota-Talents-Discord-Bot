@@ -1104,7 +1104,7 @@ bot.on("message", msg => {
     msg.channel.sendMessage("https://www.twitch.tv/h3rsh3yb3ar/");
   }
   //
-  if (msg.content.startsWith(prefix + "mtnstrimwhen" + stream)) {
+  if (msg.content.startsWith(prefix + "mtn" + stream)) {
     msg.channel.sendMessage("https://www.twitch.tv/mtnlol/");
   }
   //
