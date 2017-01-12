@@ -1146,6 +1146,5 @@ bot.on("message", msg => {
     msg.channel.sendMessage("http://i.imgur.com/FpZep41.png");
   }
 
-
 });
 // -- | end of code | --
