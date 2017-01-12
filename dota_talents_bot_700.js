@@ -21,6 +21,13 @@ bot.on("message", msg => {
   let stream = " -stream";
 
   //
+  // M E T A COMMANDS
+  //
+  if(msg.content.startsWith(prefix + "info") || msg.content.startsWith(prefix + "github" || msg.content.startWith(prefix + "help"))){
+    msg.channel.sendMessage(`I'm maintained by Oliv.r#5876. I'm hosted by ${config.hasOwnProperty("host")? config.host:"Harb#7610"}. Contact the first for new features, the second if I go down. Documentation, help and source code here: <https://github.com/HaroldOlivr/Dota-Talents-Discord-Bot>`);
+  }
+
+  //
   // H E R O E S
   //
   if (msg.content.startsWith(prefix + "abaddon") || msg.content.startsWith(prefix + "aba")) {
