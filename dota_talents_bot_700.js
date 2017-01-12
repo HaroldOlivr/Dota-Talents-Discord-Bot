@@ -19,6 +19,7 @@ bot.on('ready', () => {
 bot.on("message", msg => {
   let prefix = "::";
   let stream = " -stream";
+  let meme = " -meme";
 
   //
   // H E R O E S
@@ -1103,7 +1104,7 @@ bot.on("message", msg => {
     msg.channel.sendMessage("https://www.twitch.tv/h3rsh3yb3ar/");
   }
   //
-  if (msg.content.startsWith(prefix + "mtn" + stream)) {
+  if (msg.content.startsWith(prefix + "mtnstrimwhen" + stream)) {
     msg.channel.sendMessage("https://www.twitch.tv/mtnlol/");
   }
   //
@@ -1121,17 +1122,30 @@ bot.on("message", msg => {
 
   /* M E M E S */
   //
-  if (msg.content.startsWith(prefix + "philfear")) {
+  if (msg.content.startsWith(prefix + "philfear" + meme)) {
     msg.channel.sendMessage("http://i.imgur.com/TjeiOxd.jpg");
   }
   //
-  if (msg.content.startsWith(prefix + "stfu")) {
+  if (msg.content.startsWith(prefix + "stfu" + meme)) {
     msg.channel.sendMessage("http://i.imgur.com/GDAugZL.png");
   }
   //
-  if (msg.content.startsWith(prefix + "ritsu")) {
+  if (msg.content.startsWith(prefix + "ritsu" + meme)) {
     msg.channel.sendMessage("http://i.imgur.com/UfdQebq.png");
   }
+  //
+  if (msg.content.startsWith(prefix + "kurwaguide" + meme)) {
+    msg.channel.sendMessage("http://i.imgur.com/Pkw9N4Z.jpg");
+  }
+  //
+  if (msg.content.startsWith(prefix + "bigDickFear" + meme)) {
+    msg.channel.sendMessage("http://i.imgur.com/CNi0hIF.png");
+  }
+  //
+  if (msg.content.startsWith(prefix + "rtFUCKYOU" + meme)) {
+    msg.channel.sendMessage("http://i.imgur.com/FpZep41.png");
+  }
+
 
 });
 // -- | end of code | --
