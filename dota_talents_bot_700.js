@@ -7,7 +7,7 @@ try {
   console.log('Config file not found')
   process.exit()
 }
-//
+
 const config = require('./config.json')
 
 bot.login(config.login)
@@ -20,6 +20,8 @@ bot.on("message", msg => {
   let prefix = "::";
   let stream = " -stream";
   let meme = "lol ";
+
+
 
   //
   // M E T A COMMANDS
