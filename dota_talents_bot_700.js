@@ -23,7 +23,7 @@ bot.on("message", msg => {
 
   //
   // M E T A COMMANDS
-  //
+  // harb<3
   if (msg.content.startsWith(prefix + "info") || msg.content.startsWith(prefix + "github" || msg.content.startWith(prefix + "help"))) {
     msg.channel.sendMessage(`**Thank you for using Discord Talents Bot!** I'm maintained by Oliv.r#5876. I'm hosted by ${config.hasOwnProperty("host")? config.host:"Harb#7610"}. Contact the first for new features, the second if I go down. Documentation, help and source code here: <https://github.com/HaroldOlivr/Dota-Talents-Discord-Bot>`);
   }
