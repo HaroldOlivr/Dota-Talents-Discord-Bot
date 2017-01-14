@@ -170,5 +170,8 @@
 ***
 
 ### THANK YOU FOR CHECKING THIS BOT OUT! DOTA ON! OUTSMART or GTFO!
-###### `Awfully written by Oliv.r`
+###### `Awfully written by Oliv.r` - Contact me in Discord if you want your stream to be added to the bot! Discord: `Oliv.r#5876`
 ###### `Hosted by EU Dota 2 Discord's Harb !`
+***
+
+
