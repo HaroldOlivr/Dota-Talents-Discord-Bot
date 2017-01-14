@@ -24,8 +24,8 @@ bot.on("message", msg => {
   //
   // M E T A COMMANDS
   //
-  if(msg.content.startsWith(prefix + "info") || msg.content.startsWith(prefix + "github" || msg.content.startWith(prefix + "help"))){
-    msg.channel.sendMessage(`I'm maintained by Oliv.r#5876. I'm hosted by ${config.hasOwnProperty("host")? config.host:"Harb#7610"}. Contact the first for new features, the second if I go down. Documentation, help and source code here: <https://github.com/HaroldOlivr/Dota-Talents-Discord-Bot>`);
+  if (msg.content.startsWith(prefix + "info") || msg.content.startsWith(prefix + "github" || msg.content.startWith(prefix + "help"))) {
+    msg.channel.sendMessage(`**Thank you for using Discord Talents Bot!** I'm maintained by Oliv.r#5876. I'm hosted by ${config.hasOwnProperty("host")? config.host:"Harb#7610"}. Contact the first for new features, the second if I go down. Documentation, help and source code here: <https://github.com/HaroldOlivr/Dota-Talents-Discord-Bot>`);
   }
 
   //
@@ -115,7 +115,7 @@ bot.on("message", msg => {
     msg.channel.sendMessage("http://i.imgur.com/6ImatuK.png");
   }
   //
-  if (msg.content.startsWith(prefix + "dazzle") || msg.content.startsWith(prefix + "dazz")) {
+  if (msg.content.startsWith(prefix + "dazzle")) {
     msg.channel.sendMessage("http://i.imgur.com/25keowx.png");
   }
   //
@@ -171,7 +171,7 @@ bot.on("message", msg => {
     msg.channel.sendMessage("http://i.imgur.com/zVhiVWF.png");
   }
   //
-  if (msg.content.startsWith(prefix + "huskar") || msg.content.startsWith(prefix + "husk")) {
+  if (msg.content.startsWith(prefix + "huskar")) {
     msg.channel.sendMessage("http://i.imgur.com/ilAMUWO.png");
   }
   //
@@ -199,7 +199,7 @@ bot.on("message", msg => {
     msg.channel.sendMessage("http://i.imgur.com/g5lORZt.png");
   }
   //
-  if (msg.content.startsWith(prefix + "legion commander") || msg.content.startsWith(prefix + "lc") || msg.content.startsWith(prefix + "lcjungle")) {
+  if (msg.content.startsWith(prefix + "legion commander") || msg.content.startsWith(prefix + "lc")) {
     msg.channel.sendMessage("http://i.imgur.com/YLu8UQM.png");
   }
   //
@@ -351,7 +351,7 @@ bot.on("message", msg => {
     msg.channel.sendMessage("http://i.imgur.com/uvSqA3w.png");
   }
   //
-  if (msg.content.startsWith(prefix + "silencer") || msg.content.startsWith(prefix + "silence")) {
+  if (msg.content.startsWith(prefix + "silencer")) {
     msg.channel.sendMessage("http://i.imgur.com/WiOnl5S.png");
   }
   //
@@ -578,7 +578,7 @@ bot.on("message", msg => {
     msg.channel.sendMessage("http://i.imgur.com/2fcIriL.png");
   }
   //
-  if (msg.content.startsWith(prefix + "band of elvenskin") || msg.content.startsWith(prefix + "band") || msg.content.startsWith(prefix + "elvenskin")) {
+  if (msg.content.startsWith(prefix + "band of elvenskin") || msg.content.startsWith(prefix + "elvenskin")) {
     msg.channel.sendMessage("http://i.imgur.com/qtzW0yr.png");
   }
   //
@@ -1072,16 +1072,13 @@ bot.on("message", msg => {
   }
   //
   if (msg.content.startsWith(prefix + "creepinfo")) {
-    msg.channel.sendMessage("https://imgur.com/a/UNCbw#cLmXbby")
+    msg.channel.sendMessage("https://imgur.com/a/UNCbw#cLmXbby");
   }
   //
   if (msg.content.startsWith(prefix + "happybday")) {
-    msg.channel.sendMessage("https://media.giphy.com/media/ToMjGpRb3TkJImKKIh2/giphy.gif");
+    msg.channel.sendMessage("http://i.imgur.com/iuvklfv.jpg");
   }
-  //
-  if (msg.content.startsWith(prefix + "4rtylewd")) {
-    msg.channel.sendMessage("http://i.imgur.com/FwGtEkq.png");
-  }
+
 
   //
   // S T R E A M
@@ -1151,6 +1148,14 @@ bot.on("message", msg => {
   //
   if (msg.content.startsWith(prefix + "rtFUCKYOU" + meme)) {
     msg.channel.sendMessage("http://i.imgur.com/FpZep41.png");
+  }
+  //
+  if (msg.content.startsWith(prefix + "happybday")) {
+    msg.channel.sendMessage("https://media.giphy.com/media/ToMjGpRb3TkJImKKIh2/giphy.gif");
+  }
+  //
+  if (msg.content.startsWith(prefix + "4rtylewd")) {
+    msg.channel.sendMessage("http://i.imgur.com/FwGtEkq.png");
   }
 
 });
