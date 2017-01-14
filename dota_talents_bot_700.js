@@ -1083,13 +1083,14 @@ bot.on("message", msg => {
   //
   // S T R E A M
   // template:
-  //
-  if (msg.content.startsWith(prefix + "olivr" + stream)) {
-    msg.channel.sendMessage("https://www.twitch.tv/haroldolivr/");
-  }
-  //
+  // 
+  /////////////////////////////////////////////////////////////////////////////////
   if (msg.content.startsWith(prefix + "__username__or__nickname__" + stream)) {
     msg.channel.sendMessage("__LINK__HERE__");
+  }
+  /////////////////////////////////////////////////////////////////////////////////
+  if (msg.content.startsWith(prefix + "olivr" + stream)) {
+    msg.channel.sendMessage("https://www.twitch.tv/haroldolivr/");
   }
   //
   if (msg.content.startsWith(prefix + "adam" + stream)) {

@@ -25,12 +25,12 @@
 | **Key** |                                       **Value**                                               |
 |-------------|----------------------------------------------------------------------------------------------------|
 | `::map` | Pulls up the new Dota 2 map that displays structure positions and neutral creeps pull/stack times. |
-| `::creepinfo` | A complete infographic of Patch 7.00 neutral and factional creeps. |
-| `::happybday` | *"Mehh.. quas.. sigh -- wex exorttt"*
+| `::creepinfo` | A complete infographic of Patch 7.00 neutral and faction creeps. |
+| `::happybday` | *"Mehh.. quas.. sigh -- wex exorttt"* |
 | `::info` `::github` `::help` | Replies a small appreciation and display bot admins' Discord user tags.  |
 
 ### Heroes Talent Command List:
-##### Press **Ctrl + F** and search your hero or item's command.
+##### Press **Ctrl + F** and search your heroes' commands.
 ###### Note: Hero nicknames/abbreviations are added for quicker access. Using `::nickname` **WILL** pull up the same screenshot as `::full_name`
 <br>
 
@@ -167,7 +167,8 @@
 |Ring of Regen | `::ring of regen` `::regen` |
 |Helm of the Dominator | `::hotd` |
 
+***
 
-
-
-
+### THANK YOU FOR CHECKING THIS BOT OUT! DOTA ON! OUTSMART or GTFO!
+###### `Awfully written by Oliv.r`
+###### `Hosted by EU Dota 2 Discord's Harb !`
