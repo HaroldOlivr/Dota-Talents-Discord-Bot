@@ -1125,6 +1125,10 @@ bot.on("message", msg => {
   if (msg.content.startsWith(prefix + "sohakmet" + stream)) {
     msg.channel.sendMessage("https://www.twitch.tv/sohakmet/");
   }
+  //
+  if (msg.content.startswith(prefix + "stickman" + stream)) {
+    msg.channel.sendMessage("https://www.twitch.tv/itsastickman/");
+  }
 
   /* M E M E S */
   //
