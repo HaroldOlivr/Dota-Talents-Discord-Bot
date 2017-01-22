@@ -1091,43 +1091,47 @@ bot.on("message", msg => {
   }
   /////////////////////////////////////////////////////////////////////////////////
   if (msg.content.startsWith(prefix + "olivr" + stream)) {
-    msg.channel.sendMessage("https://www.twitch.tv/haroldolivr/");
+    msg.channel.sendMessage("https://www.twitch.tv/haroldolivr");
   }
   //
   if (msg.content.startsWith(prefix + "adam" + stream)) {
-    msg.channel.sendMessage("https://www.twitch.tv/adamman1130/");
+    msg.channel.sendMessage("https://www.twitch.tv/adamman1130");
   }
   //
   if (msg.content.startsWith(prefix + "ox" + stream)) {
-    msg.channel.sendMessage("https://www.twitch.tv/oxthe5th/");
+    msg.channel.sendMessage("https://www.twitch.tv/oxthe5th");
   }
   //
   if (msg.content.startsWith(prefix + "4rtemis" + stream)) {
-    msg.channel.sendMessage("https://www.twitch.tv/lll4rtemislll/");
+    msg.channel.sendMessage("https://www.twitch.tv/lll4rtemislll");
   }
   //
   if (msg.content.startsWith(prefix + "hershey" + stream)) {
-    msg.channel.sendMessage("https://www.twitch.tv/h3rsh3yb3ar/");
+    msg.channel.sendMessage("https://www.twitch.tv/h3rsh3yb3ar");
   }
   //
   if (msg.content.startsWith(prefix + "mtn" + stream)) {
-    msg.channel.sendMessage("https://www.twitch.tv/mtnlol/");
+    msg.channel.sendMessage("https://www.twitch.tv/mtnlol");
   }
   //
   if (msg.content.startsWith(prefix + "wamu" + stream)) {
-    msg.channel.sendMessage("https://www.twitch.tv/wamu1217/");
+    msg.channel.sendMessage("https://www.twitch.tv/wamu1217");
   }
   //
   if (msg.content.startsWith(prefix + "hamster" + stream)) {
-    msg.channel.sendMessage("https://www.twitch.tv/applefibs/")
+    msg.channel.sendMessage("https://www.twitch.tv/applefibs")
   }
   //
   if (msg.content.startsWith(prefix + "sohakmet" + stream)) {
-    msg.channel.sendMessage("https://www.twitch.tv/sohakmet/");
+    msg.channel.sendMessage("https://www.twitch.tv/sohakmet");
   }
   //
   if (msg.content.startswith(prefix + "stickman" + stream)) {
-    msg.channel.sendMessage("https://www.twitch.tv/itsastickman/");
+    msg.channel.sendMessage("https://www.twitch.tv/itsastickman");
+  }
+  //
+  if (msg.content.startsWith(prefix + "SDP" + stream)) {
+    msg.channel.sendMessage("https://www.twitch.tv/superdotaplaya");
   }
 
   /* M E M E S */
